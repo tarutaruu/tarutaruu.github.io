@@ -30,3 +30,7 @@ body {
 img {
     max-width: 300px;
 }
+
+header {
+    background: rgb(170, 190, 255);
+}
