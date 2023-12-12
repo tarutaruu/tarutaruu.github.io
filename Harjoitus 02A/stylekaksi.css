@@ -8,7 +8,6 @@ div {background-color: rgb(214, 153, 214);
     text-align: right;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .pinkki {
@@ -32,5 +31,6 @@ img {
 }
 
 header {
-    background: rgb(170, 190, 255);
+    background-color: rgb(151, 200, 204);
+    text-align: right;
 }

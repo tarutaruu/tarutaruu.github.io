@@ -1,0 +1,104 @@
+
+html { 
+	margin: auto;
+	background: rgb(167, 193, 201);
+}
+
+body { 
+	margin: auto;
+	background: rgb(194, 145, 199);
+}
+
+header h1 { 
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	color: rgb(74, 78, 105);
+	text-align: center;
+	margin: 50px;
+}
+
+nav { 
+	list-style-type: none; 
+	font-family: 'Source Sans 3', sans-serif;
+	background: rgb(242, 233, 228);
+	display: flex;
+	padding: 25px;
+	width: 80%;
+	margin-bottom: 20px;
+}
+
+#main-menu li {
+	margin: auto;
+}
+
+ul {
+	margin: auto;
+}
+
+#main-menu a { 
+	text-decoration: none;
+}
+
+#main-menu a:hover { 
+	color: rgb(166, 176, 247); 
+	background: rgb(234, 187, 238); 
+}
+
+.button { 
+	background: rgb(145, 152, 199);
+	color: rgb(242, 233, 228);
+	border-style: solid;
+	padding: 10px;
+	text-align: center;
+	margin-top: 10px;
+	display: inline-block;
+	align-content: bottom;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+.button:hover { 
+	color: rgb(74, 78, 105); 
+	background: rgb(242, 233, 228); 
+}
+
+
+main {	
+	display: flex; flex-wrap:wrap; justify-content: center;
+}
+
+article {
+	max-width: 300px;
+	background: rgba(242, 233, 228, 0.5);
+	margin: 12px;
+    padding: 13px 23px 42px;
+	position: relative;
+}
+
+
+article h2 {
+	font-family: 'Oswald', sans-serif;
+	color: rgb(74, 78, 105);
+	text-align: center;
+}
+
+article p { 
+	font-family: 'Source Sans 3', sans-serif;
+	color: rgb(34, 34, 59);
+	text-align: justify;
+	margin-bottom: 40px;
+}
+
+.article-image { 
+    max-width: 100%; 
+}
+
+footer {
+	margin: auto;
+	padding: 10px;
+	background: rgb(74, 78, 105);
+	color: rgb(242, 233, 228);
+	margin-top: 20px;
+}
+
