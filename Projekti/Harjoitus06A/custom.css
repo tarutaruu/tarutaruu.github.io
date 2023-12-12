@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(170, 161, 200);
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Kalnia', serif;
+    font-size: 100px;
+}
+
+.btn {
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    margin: 40px 20px;
+    padding: 10px;
+}
+
+.col {
+    margin-bottom: 40px;
+}
+
+.card-body {
+    background-color: rgb(245, 230, 232);
+}
+
+.card-footer {
+    background: rgb(213, 198, 224);
+}
+
+#demo {
+    margin: auto;
+    margin-bottom: 40px;
+    max-width: 600px;
+    border-radius: 25px;
+}
+
+.list-group {
+    margin: 40px;
+    border-radius: 25px;
+}
+
+.list-group-item {
+    background: rgb(213, 198, 224);
+}
+
+.mb-3 {
+    border: 2px solid black;
+    background: rgb(213, 198, 224);
+    font-family: 'Nunito', sans-serif;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 40px;
+}
+
+.form-control {
+    background: rgb(245, 230, 232);
+}
+
+.row justify-content-start {
+    margin-top: 40px;
+}
+
+.row justify-content-evenly {
+    margin-bottom: 40px;
+}
+
+.container text-center {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.col-4 {
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(213, 198, 224);
+    text-align: center;
+}
+
+.col-4 img {
+    width: 60px;
+}
+
+h2 {
+    font-family: 'Kalnia', serif;
+}
+
+ul {
+    background: rgb(245, 230, 232);
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.nav-item {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    background: rgb(25, 42, 81);
+    font-family: 'Nunito', sans-serif;
+    color: rgb(213, 198, 224);
+    text-align: center;
+    font-size: 20px;
+}
